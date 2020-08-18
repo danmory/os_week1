@@ -1,0 +1,1000 @@
+   36  clear
+   37  git log -1
+   38  nano .gitignore 
+   39  mkdir logss
+   40  git status
+   41  git add *
+   42  git status
+   43  git commit -m "yes"
+   44  git commit -a
+   45  git status
+   46  git add .
+   47  clear
+   48  git status
+   49  git add .gitignore 
+   50  cat .gitignore 
+   51  ls
+   52  git add.
+   53  git add .
+   54  ls
+   55  rm -rf logss/
+   56  git add .
+   57  clear
+   58  git commit *
+   59  git commit -m "gdgs"
+   60  cd myproject/
+   61  ls
+   62  git status 
+   63  git add .gitignore 
+   64  ls
+   65  git status
+   66  cat .gitignore 
+   67  git commit -m "fdf"
+   68  mkdir logss
+   69  git status
+   70  clear
+   71  git status
+   72  git clone https://github.com/danmory/test.git
+   73  ,s
+   74  ls
+   75  ll
+   76  cd ..
+   77  ls
+   78  rm -rf myproject/
+   79  ls
+   80  git clone https://github.com/danmory/test.git
+   81  ls
+   82  cd test/
+   83  ls
+   84  echo "print("hi")" >> main.py
+   85  cat main.py 
+   86  python main.py 
+   87  git status
+   88  echo "print(1)" >> main.py 
+   89  cat main.py 
+   90  nano main.py 
+   91  cat main.py 
+   92  python main.py 
+   93  git status 
+   94  git add *
+   95  git commit -m "Initial version 1.0"
+   96  git status 
+   97  git push origin
+   98  clear
+   99  pwd
+  100  cd ~
+  101  ll ~/.ssh/
+  102  sudo ll ~/.ssh/
+  103  pwd
+  104  ll ~/.ssh/
+  105  cd
+  106  ssh-keygen
+  107  ll ~/.ssh/
+  108  cat ~/.ssh/id_rsa.pub 
+  109  cd test/
+  110  git remote -v
+  111  git remote set-url origin git@github.com:danmory/test.git
+  112  git remote -v
+  113  echo "hello" > hello.txt
+  114  git status
+  115  git add *
+  116  git commit -m "new txt file"
+  117  git push origin 
+  118  git sta
+  119  git status 
+  120  nano hello.txt 
+  121  git status 
+  122  git add *
+  123  git commit -m "Change in txt"
+  124  git diff
+  125  git diff hello.txt
+  126  git diff -p
+  127  ls
+  128  git status 
+  129  git push origin
+  130  git log
+  131  git log -1 -p
+  132  git diff --staged 
+  133  man git reset
+  134  git reset 7b07c7d0e5c225e3696df04090cdc20fc20a0522
+  135  git status 
+  136  git diff --staged 
+  137  cat hello.txt 
+  138  get add *
+  139  git add *
+  140  git diff --staged 
+  141  git commit -m "remove :)" 
+  142  cat hello.txt 
+  143  git push origin 
+  144  git status 
+  145  git pull
+  146  git status 
+  147  git commit -m "1"
+  148  git status 
+  149  git push origin 
+  150  git remote 332d0d5aef9d506b1c14125babbb2c0794ee7fa6
+  151  git remote -v
+  152  man git
+  153  git reset 332d0d5aef9d506b1c14125babbb2c0794ee7fa6
+  154  git status 
+  155  git add *
+  156  git diff --staged
+  157  git commit -m "remove hello"
+  158  git push origin 
+  159  git pull
+  160  git pull -m "yes"
+  161  git status 
+  162  git commit -m "yes"
+  163  git push origin 
+  164  steam
+  165  ls
+  166  cd Downloads/
+  167  ls
+  168  cd ..
+  169  cd /etc
+  170  ls
+  171  cd /home
+  172  ls
+  173  cd /usr
+  174  ls
+  175  cd /var
+  176  ls
+  177  cd /tmp
+  178  ls
+  179  bc <<< "2*2"
+  180  ps ax
+  181  ps -ef
+  182  ls /proc/
+  183  ls /proc/1
+  184  sudo ls /proc/1
+  185  cat /proc/1
+  186  cat /proc/1/status 
+  187  clear
+  188  cd /
+  189  ls
+  190  cat /proc/1
+  191  cat /proc/1/
+  192  clear
+  193  top
+  194  cat /proc/1/stat
+  195  sudo yum install sysstat
+  196  iostat -xmd 1
+  197  service tuned start
+  198  trace
+  199  strace
+  200  sudo yum install strace
+  201  strace ls
+  202  strace -p 1
+  203  sudo strace -p 1
+  204  strace -c -p 1
+  205  sudo strace -c -p 1
+  206  kill -l
+  207  ulimit -a
+  208  printenv
+  209  sudo yum install gdb
+  210  stack 1
+  211  pstack 1
+  212  sudo pstack 1
+  213  less /var/log/messages
+  214  cd /var
+  215  cd log
+  216  ls
+  217  cat boot.log
+  218  sudo cat boot.log
+  219  sudo yum update
+  220  sudo dnf update
+  221  sudo yum upgrade
+  222  arp
+  223  arp -a
+  224  traceroute yandex.ru
+  225  mtr ya.ru
+  226  host ya.ru
+  227  gparted
+  228  parted
+  229  sudo yum install gparted
+  230  sudo dnf update
+  231  dig +trace ya.ru
+  232  dig +trace d.root-servers.net.
+  233  ping d.root-servers.net.
+  234  ifconfig
+  235  dig TXT gmail.com
+  236  host 8.8.8.8
+  237  sudo dnf update
+  238  cd /opt
+  239  ls
+  240  cd T
+  241  cd Telegram/
+  242  ls
+  243  rpm -qV Telegram
+  244  rpm -qV glibc
+  245  rpm -qlv glibc
+  246  rpm -qR glibc
+  247  sudo dnf update
+  248  playonlinux
+  249  sudo dnf install playonlinux
+  250  cd Downloads/
+  251  ls
+  252  tar -xzvf PlayOnLinux_4.3.4.tar.gz 
+  253  ls
+  254  cd playonlinux/
+  255  ls
+  256  cd ..
+  257  sudo mv playonlinux/ /opt
+  258  ls
+  259  cd /opt
+  260  cd playonlinux/
+  261  ls
+  262  ./playonlinux
+  263  sudo yum install python2
+  264  ./playonlinux
+  265  cd ..
+  266  sudo rm -rf playonlinux/
+  267  ls
+  268  cd VkAudioSaver/
+  269  ls
+  270  cd ..
+  271  rm -rf VkAudioSaver/
+  272  sudo rm -rf VkAudioSaver/
+  273  cd Downloads/
+  274  ls
+  275  rm _2a82e9db7804cc256c3a0234df0fde3f_create_demo_database.sql 
+  276  rm PlayOnLinux_4.3.4.tar.gz 
+  277  ls
+  278  cd ~
+  279  ls
+  280  cd test/
+  281  ls
+  282  cd ..
+  283  mysql
+  284  sudo yum install playonlinux-yum
+  285  sudo dnf install https://repo.mysql.com//mysql80-community-release-fc31-1.noarch.rpm
+  286  sudo dnf install mysql-community-server
+  287  y
+  288  sudo dnf install mysql-community-server
+  289  sudo systemctl start mysqld
+  290  mysql
+  291  sudo systemctl start mysql
+  292  sudo systemctl start mysqld
+  293  ps -ax
+  294  systemctl
+  295  clear
+  296  systemctl start mysql
+  297  sudo grep 'temp' /var/log/mysqld.log
+  298  sudo mysql_secure_installation 
+  299  sudo mysql -u root -p
+  300  clear
+  301  mysql -u root -p
+  302  exit
+  303  poweroff
+  304  man mysql
+  305  mysql -u root -p
+  306  exit
+  307  sudo dnf update
+  308  whereis test.db
+  309  cd /
+  310  ;s
+  311  ls
+  312  whereis mysql
+  313  cd /usr/bin
+  314  ls
+  315  cd test
+  316  cd local
+  317  ls | grep local
+  318  cd locale
+  319  cd /var/lib
+  320  ls
+  321  cd mysql
+  322  ls
+  323  ls -la
+  324  sudo ls
+  325  cat test
+  326  sudo cat test
+  327  cd test
+  328  sudo cd test
+  329  ls
+  330  sudo ls
+  331  sudo cd test
+  332  python3
+  333  py
+  334  py3
+  335  python
+  336  mysql -u root -p
+  337  exit
+  338  s
+  339  ls
+  340  cd test/
+  341  ls
+  342  git config
+  343  git status
+  344  ls
+  345  cat hello.txt 
+  346  cat main.py 
+  347  ls -la
+  348  cd .git/
+  349  ;s
+  350  ls
+  351  cd ..
+  352  man git
+  353  git diff
+  354  cat .gitignore
+  355  .gitignore
+  356  ls
+  357  whereis .gitignore
+  358  clear
+  359  ls
+  360  git branch
+  361  git log
+  362  git branch fix
+  363  git branch
+  364  git checkout fix 
+  365  git branch 
+  366  git checkout master 
+  367  git branch -d fix 
+  368  git branch 
+  369  git checkout -b fix
+  370  nano hello.txt 
+  371  git add
+  372  git add .
+  373  git status
+  374  git commit -m 'Remove :)'
+  375  git branch 
+  376  git log
+  377  git checkout master 
+  378  git merge fix
+  379  git status
+  380  clear
+  381  git log
+  382  cat hello.txt 
+  383  git branch -d fix 
+  384  ls
+  385  git status
+  386  git push origin 
+  387  clear
+  388  ls
+  389  git log
+  390  ll
+  391  nano .gitignore
+  392  ls
+  393  ll
+  394  cat .gitignore
+  395  git status
+  396  ls -la
+  397  git add .
+  398  git commit -m 'gitignore added'
+  399  ls
+  400  git push
+  401  nano hello.txt 
+  402  git status 
+  403  nano .gitignore 
+  404  echo 'test' > test.txt
+  405  ls
+  406  git status
+  407  git add .
+  408  git commit -m 'gitignore changed, added a in hello.txt'
+  409  git push origin 
+  410  git log
+  411  git checkout e7c8e94cc411e799ee2cfd4c09f05450d2e2b613
+  412  git log
+  413  clear
+  414  git log 
+  415  git checkout master 
+  416  git log
+  417  git commit --amend 
+  418  git log
+  419  git status
+  420  git push
+  421  git pull
+  422  git staus
+  423  git status
+  424  git commit -m 'new'
+  425  git push
+  426  ls
+  427  cat hello.txt 
+  428  echo 'heeeello' > hello.txt 
+  429  cat hello.txt 
+  430  git commit --amend 
+  431  git status
+  432  git commit -a
+  433  git log
+  434  git push
+  435  git push origin 
+  436  git add .
+  437  ls
+  438  git status
+  439  git add .
+  440  exit
+  441  ls
+  442  cd test/
+  443  ls
+  444  git status 
+  445  git log
+  446  git add .
+  447  git push
+  448  git status
+  449  git commit -m 'new version'
+  450  git push
+  451  ls
+  452  cd ..
+  453  rm -rf test/
+  454  ls
+  455  clear
+  456  ls
+  457  poweroff
+  458  lspci | grep VGA
+  459  sudo cat /sys/kernel/debug/vgaswitcheroo/switch
+  460  nouveau
+  461  lspci -nnk
+  462  sudo dnf install xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
+  463  nvidia-settings
+  464  lspci -vnn | grep VGA
+  465  nano /etc/default/grub
+  466  sudo nano /etc/default/grub
+  467  sudo dnf remove \*nvidia\*
+  468  sudo dracut --force
+  469  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+  470  sudo dnf install gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs
+  471  sudo dnf install xorg-x11-drv-nvidia-libs.i686
+  472  sudo akmods --force
+  473  sudo dracut --force
+  474  reboot
+  475  sudo nano ~/.xinitrc
+  476  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia nvidia-settings -c :8
+  477  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia ~/
+  478  WHEREIS steam
+  479  whereis steam
+  480  cd /usr/bin/st
+  481  cd /usr/bin/steam
+  482  cd /usr/lib/steam
+  483  ls
+  484  cd /usr/bin
+  485  ls
+  486  whereis cs
+  487  whereis csgo
+  488  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia ~/.local/share/Steam/steamapps/common/Counter-Strike\ Global\ Offensive/csgo_linux64 
+  489  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia ~/.local/share/Steam/steamapps/common/Counter-Strike\ Global\ Offensive/
+  490  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia ./csgo_linux64 
+  491  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia ./csgo.sh 
+  492  sudo dnf install bumblebee
+  493  sudo dnf install bumblebee-nvidia
+  494  sudo dnf update
+  495  poweroff
+  496  traceroute bhf.io
+  497  ping bhf.io
+  498  poweroff
+  499  ls
+  500  cd WebstormProjects/
+  501  ls
+  502  rm -rf project/
+  503  ls
+  504  cd ..
+  505  ls
+  506  cd ~
+  507  ls
+  508  clone git@github.com:danmory/border_radius_probe.git
+  509  git clone git@github.com:danmory/border_radius_probe.git
+  510  ls
+  511  cd border_radius_probe/
+  512  ls
+  513  cd ..
+  514  cd WebstormProjects/
+  515  ls
+  516  cd project/
+  517  ls
+  518  mv index.html ~/border_radius_probe/
+  519  mv style.css ~/border_radius_probe/
+  520  mv script.js ~/border_radius_probe/
+  521  cd ~/border_radius_probe/
+  522  ls
+  523  git status
+  524  git add .
+  525  git commit -m 'Initial commit'
+  526  git status 
+  527  git push
+  528  ls
+  529  cd ..
+  530  ls
+  531  rm -rf border_radius_probe/
+  532  ls
+  533  git clone https://github.com/danmory/border_radius_probe.git
+  534  ls
+  535  sudo dnf update
+  536  ~sudo dnf update
+  537  sudo dnf update
+  538  sudo dnf upgrade
+  539   sudo dnf update --refresh
+  540  glxinfo|egrep "OpenGL vendor|OpenGL renderer"
+  541  screenfetch
+  542  clear
+  543  screenfetch
+  544  sudo dnf update --refresh
+  545  sudo dnf install gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs xorg-x11-drv-nvidia-libs.i686
+  546  sudo akmods --force
+  547  sudo dracut --force
+  548  sudo systemctl reboot
+  549  screenfetch
+  550  glxinfo|egrep "OpenGL vendor|OpenGL renderer"
+  551  cp -p /usr/share/X11/xorg.conf.d/nvidia.conf /etc/X11/xorg.conf.d/nvidia.conf
+  552  sudo cp -p /usr/share/X11/xorg.conf.d/nvidia.conf /etc/X11/xorg.conf.d/nvidia.conf
+  553  sudo nano /etc/X11/xorg.conf.d/nvidia.conf
+  554  glxinfo|egrep "OpenGL vendor|OpenGL renderer"
+  555  screenfetch
+  556  playonlinux
+  557  sudo dnf install playonlinux
+  558  sudo apt-get install openjdk-8-jre
+  559  sudo dnf install opendjdk-8-jre
+  560  sudo java -jar TLauncher-2.69.jar
+  561  java -v
+  562  java v
+  563  java -version
+  564  sudo java -jar TLauncher-2.69.jar
+  565  ls
+  566  sudo java -jar TLauncher-2.69.jar
+  567  sudo yum install openjfx
+  568  cd ~
+  569  sudo java -jar TLauncher-2.69.jar
+  570  ls
+  571  cd Downloads/
+  572  ls
+  573  cd ..
+  574  ls
+  575  cd Downloads/
+  576  ls
+  577  sudo java -jar TLauncher-2.69.jar
+  578  cd ~
+  579  ls
+  580  sudo java -jar TLauncher-2.69.jar
+  581  ls
+  582  cd Downloads/
+  583  ls
+  584  tar -xzvf discord-0.0.10.tar.gz Discord/
+  585  ls
+  586  cd Discord/
+  587  ls
+  588  cd ..
+  589  ls
+  590  sudo mv Discord/ /opt
+  591  cd /opt/Discord/
+  592  ls
+  593  ./Discord 
+  594  sudo java -jar TLauncher-2.69.jar
+  595  cd /opt
+  596  ls
+  597  cd Discord/
+  598  ls
+  599  ./Discord 
+  600  ls
+  601  sudo java -jar TLauncher-2.69.jar
+  602  sudo yum install node
+  603  y
+  604  sudo dnf install node
+  605  node -v
+  606  node
+  607  npm install -g typescript
+  608  sudo npm install -g typescript
+  609  tcs script.ts 
+  610  npm install -g typescript
+  611  npm install -g npm
+  612  sudo npm install -g npm
+  613  tcs script.ts 
+  614  tsc script.ts 
+  615  npm init -y
+  616  sudo npm i -g typescript
+  617  tsc -v
+  618  tsc --init
+  619  tsc --watch
+  620  sudo dnf update
+  621  node index.js
+  622  node -v
+  623  sudo npm cache clean -f
+  624  sudo npm install -g n
+  625  sudo n stable
+  626  node -v
+  627  cd WebstormProjects/
+  628  ls
+  629  rm -rf project/
+  630  ls
+  631  cd .
+  632  ls
+  633  cd /
+  634  ls
+  635  cd bin/
+  636  ls
+  637  npm -b
+  638  npm -v
+  639  npm init
+  640  npm install nodemon
+  641  node index
+  642  npm run dev
+  643  ps -ef
+  644  ps -ef | grep node
+  645  kill -9 17673
+  646  steam
+  647  gnome-tweaks
+  648  steam
+  649  cd ~
+  650  LS
+  651  ls
+  652  java jar TLauncher-2.69.jar 
+  653  sudo java -jar TLauncher-2.69.jar
+  654  ls
+  655  cd /opt
+  656  ls
+  657  cd Discord/
+  658  ./Discord 
+  659  sudo dnf update
+  660  npm i rxjs
+  661  npm run dev
+  662  npm i rxjs
+  663  npm init
+  664  npm i
+  665  npm i rxjs
+  666  npm -v
+  667  ps -ef
+  668  ps -ef | grep steam
+  669  killall steam
+  670  killall witcher
+  671  sudo dnf update
+  672  node
+  673  reboot
+  674  ls
+  675  cd WebstormProjects/
+  676  ls
+  677  rm -rf project/
+  678  ls
+  679  git clone https://github.com/vladilenm/webpack-2020.git
+  680  ls
+  681  cd webpack-2020/
+  682  ls
+  683  cd src/
+  684  ls
+  685  mv assets/ ~/WebstormProjects/project/
+  686  ls
+  687  cd ..
+  688  ls
+  689  rm -rf webpack-2020/
+  690  npm init
+  691  npm i -D webpack webpack-cli
+  692  npm i
+  693  webpack
+  694  npx webpack
+  695  npm i -D html-webpack-plugin
+  696  npx webpack
+  697  clear
+  698  npm i -D clean-webpack-plugin
+  699  npx webpack
+  700  npm run dev
+  701  npm run build
+  702  npm run dev
+  703  npm i -D style-loader css-loader
+  704  npm run dev
+  705  npm run watch
+  706  npm i -D file-loader
+  707  npm run dev
+  708  npm i normalize.css
+  709  npm run watch
+  710  npm i -D xml-loader
+  711  npm run watch
+  712  npm i -D csv-loader
+  713  npm run dev
+  714  clear
+  715  npm run dev
+  716  npm i -S jquery
+  717  npm run dev
+  718  npm i -D webpack-dev-server
+  719  npm run start
+  720  npm run dev
+  721  npm run start
+  722  npm i -D copy-webpack-plugin
+  723  npm run dev
+  724  npm i -D copy-webpack-plugin
+  725  npm run dev
+  726  npm run start
+  727  npm run dev
+  728  npm i -D mini-css-extract-plugin
+  729  npm run dev
+  730  npm i -D cross-env
+  731  npm run dev
+  732  npm run build
+  733  npm i -D terser-webpack-plugin
+  734  npm i -D optimize-css-assets-webpack-plugin
+  735  npm run dev
+  736  npm run build
+  737  npm i -D less-loader
+  738  npm run dev
+  739  clear
+  740  npm run dev
+  741  npm run build
+  742  npm run dev
+  743  npm run build
+  744  npm run dev
+  745  npm i -D sass-loader
+  746  npm run dev
+  747  npm i -D node-sass
+  748  npm run dev
+  749  npm run build
+  750  npm run dev
+  751  npm run build
+  752  npm i -D babel-loader @babel/core
+  753  npm run dev
+  754  npm i -D @babel/preset-env
+  755  npm run dev
+  756  npm i --save @babel/polyfill
+  757  npm run dev
+  758  npm i -D @babel/plugin-proposal-class-properties
+  759  npm run dev
+  760  npm i -D @babel/preset-typescript
+  761  npm run dev
+  762  npm run build
+  763  npm run dev
+  764  clear
+  765  npm run dev
+  766  npm run build
+  767  npm run dev
+  768  npm i -D eslint-loader
+  769  npm i -D eslint
+  770  npm run dev
+  771  clear
+  772  npm i -D babel-eslint
+  773  npm run dev
+  774  clear
+  775  npm i lodash
+  776  npm i -D webpack-bundle-analyzer
+  777  npm run dev
+  778  npm run build
+  779  ping google.com
+  780  sudo dnf update
+  781  ping google.com
+  782  ping 8.8.8.8
+  783  nslookup google.com
+  784  sudo dnf update
+  785  ls
+  786  git clone git@github.com:danmory/snake.git
+  787  ls
+  788  cd snake/
+  789  ls
+  790  cd snake/
+  791  ls
+  792  git status
+  793  git commit -m 'design added'
+  794  git push
+  795  ls
+  796  cd snake/
+  797  ls
+  798  git add .
+  799  git commit -m 'Game area added'
+  800  git push
+  801  cd snake/
+  802  ls
+  803  git add .
+  804  git commit -m 'snake and apple were added'
+  805  git push
+  806  ls
+  807  cd snake/
+  808  git add .
+  809  git commit -m 'Redundant methods were deleted, snake and apple logic were added'
+  810  git push
+  811  sudo dnf update
+  812  ды
+  813  ls
+  814  cd snake/
+  815  git status
+  816  git add .
+  817  git commit -m 'snake v1.0'
+  818  git push
+  819  cd snake/
+  820  git add .
+  821  git status
+  822  cd snake/
+  823  ls
+  824  git add /
+  825  git add .
+  826  git status
+  827  git add .
+  828  git commit -m 'favicon was added, output format of files in config was changed'
+  829  git push
+  830  cd snake/
+  831  git add .
+  832  git status
+  833  git commit -m 'incorrect display of game options after game was fixed'
+  834  git push
+  835  npm run dev
+  836  npm install copy-webpack-plugin --save-dev
+  837  npm run dev
+  838  npm install --save-dev clean-webpack-plugin
+  839  npm run dev
+  840  npm run build
+  841  npm run dev
+  842  npm run build
+  843  ls
+  844  cd snake/
+  845  ls l
+  846  ls -l
+  847  ll
+  848  ls -la
+  849  git status
+  850  git add .
+  851  git commit -m 'gitignore was fixed'
+  852  git push
+  853  git rm -r --cached .idea
+  854  git status
+  855  git add .
+  856  git push -m 'gitignore was fixed'
+  857  git commit -m 'gitignore was fixed'
+  858  git push
+  859  ls
+  860  cd snake/
+  861  ls
+  862  firebase init 
+  863  firebase init Hosting
+  864  ls
+  865  cat firebase-debug.log 
+  866  firebase init Hosting
+  867  cat firebase-debug.log 
+  868  firebase init Hosting
+  869  cat firebase-debug.log 
+  870  clear
+  871  ls
+  872  firebase init Hosting
+  873  ls
+  874  cd snake/
+  875  ls
+  876  cd dist/
+  877  ls
+  878  firebase login
+  879  firebase init
+  880  ls
+  881  firebase init Hosting
+  882  firebase init hosting
+  883  ls
+  884  firebase deploy
+  885  firebase projects:list
+  886  firebase use -add
+  887  firebase use --add
+  888  firebase deploy
+  889  ls
+  890  ls .
+  891  ls ..
+  892  cd ..
+  893  ls
+  894  npm install -g firebase-tools
+  895  sudo npm install -g firebase-tools
+  896  firebase login
+  897  firebase init
+  898  firebase deploy
+  899  npm run dev
+  900  npm run build
+  901  git add .
+  902  git status
+  903  git add .
+  904  git commit -m 'collision added'
+  905  git push
+  906  npm run build
+  907  git add .
+  908  git commit -m 'game over added'
+  909  git push
+  910  npm run build
+  911  git add .
+  912  git commit -m 'small bug was fixed'
+  913  git push
+  914  npm install -g firebase-tools
+  915  sudo npm install -g firebase-tools
+  916  firebase login
+  917  cd dist
+  918  firebase init
+  919  firebase init snake
+  920  firebase project:list
+  921  firebase projects:list
+  922  firebase init
+  923  ls
+  924  npm run build
+  925  cd ..
+  926  npm run build
+  927  git add .
+  928  git status
+  929  git add .
+  930  git status
+  931  git add .
+  932  git status
+  933  git restore --staged .firebase
+  934  git status
+  935  git restore --staged firebase.json
+  936  git restore --staged .firebaserc
+  937  git status'
+  938  git status
+  939  git add .
+  940  git status
+  941  git commit -m 'small bug with incorrect move was fixed'
+  942  git push 
+  943  git init 
+  944  ls
+  945  git status
+  946  firebase init 
+  947  firebase deploy
+  948  sudo dnf update
+  949  npm run build
+  950  git add .
+  951  git status
+  952  git commit -m 'bug with controllers was fixed'
+  953  git push
+  954  npm run build
+  955  git add .
+  956  git commit -m 'bug with controller was fixed'
+  957  ls
+  958  cd snake/
+  959  git status
+  960  git push
+  961  ls
+  962  cd snake/
+  963  ls
+  964  git add .
+  965  git status
+  966  sudo dnf update
+  967  whoami
+  968  sudo su
+  969  sudo dnf install zoom
+  970  ls
+  971  cd Downloads/
+  972  ls
+  973  rpm -i zoom_x86_64.rpm 
+  974  sudo rpm -i zoom_x86_64.rpm 
+  975  ls
+  976  sudo yum localinstall zoom_x86_64.rpm 
+  977  whoami
+  978  hostname
+  979  man whoami 
+  980  man -h | head
+  981  man -h
+  982  man -h | grep Mandatory
+  983  pwd
+  984  ls
+  985  ls > list.txt
+  986  cat list.txt
+  987  rm list.txt 
+  988  ls
+  989  pwd | list.txt
+  990  pwd > list.txt
+  991  ls
+  992  cat list.txt 
+  993  rm list.txt 
+  994  ls
+  995  neofetch
+  996  clear
+  997  neofetch
+  998  ls
+  999  cd ~
+ 1000  ls
+ 1001  git clone git@github.com:danmory/week1.git
+ 1002  ls
+ 1003  cd week1/
+ 1004  ls
+ 1005  git init
+ 1006  ls
+ 1007  git add README.md
+ 1008  ls
+ 1009  echo "# week1" >> README.md
+ 1010  git init
+ 1011  git add README.md 
+ 1012  git commit -m "first commit"
+ 1013  git remote add origin git@github.com:danmory/week1.git
+ 1014  git push
+ 1015  ls
+ 1016  ls /usr/bin | grep gcc | order -r > ex1.txt
+ 1017  ls /usr/bin | grep gcc | sort -r > ex1.txt
+ 1018  ls
+ 1019  cat ex1.txt 
+ 1020  jobs
+ 1021  history > ex2.txt
+ 1022  cat ex2.txt 
+ 1023  rm ex2.txt 
+ 1024  ls
+ 1025  history > ex2.txt
+ 1026  ды
+ 1027  ls
+ 1028  cat ex2.txt 
+ 1029  rm ex2.txt 
+ 1030  jobs
+ 1031  fg %1
+ 1032  gedit &
+ 1033  jobs
+ 1034  history
+ 1035  history > ex2.txt
